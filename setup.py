@@ -22,11 +22,12 @@ from distutils.core import setup
 setup(name='liquidice-server',
       version='0.1',
       description='Liquid Ice Server',
-      long_description='Liquid Ice is a restful based news agregator. This is the server part.',
+      long_description='Liquid Ice is a restful based news aggregator. This is the server part.',
       author='Anthony Bourguignon',
       author_email='contact@toniob.net',
       url='http://liquid-ice.org/',
       license='AGPLv3+',
-      packages=[],
+      package_dir={'': 'src'},
+      packages=[''],
      )
 
